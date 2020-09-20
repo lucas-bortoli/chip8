@@ -257,9 +257,9 @@ void Chip8_Update(Chip *c) {
 		// DRW Vx, Vy, nibble
 
 		uint8_t target_v_reg_x = arg_x;
-    	uint8_t target_v_reg_y = arg_y;
-    	uint8_t x_location = c->regs[target_v_reg_x];
-    	uint8_t y_location = c->regs[target_v_reg_y];
+		uint8_t target_v_reg_y = arg_y;
+		uint8_t x_location = c->regs[target_v_reg_x];
+		uint8_t y_location = c->regs[target_v_reg_y];
 		uint8_t sprite_height = arg_n;
 		uint8_t pixel;
 
